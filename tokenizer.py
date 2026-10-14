@@ -1,7 +1,9 @@
-"""Dependency-free tokenizer for Klein's single-user, thinking-disabled template.
+"""Dependency-free Qwen tokenizer for FLUX.2 Klein prompt encoding.
 
-Uses the supplied Qwen vocabulary/merges. Unicode characters unknown to this
-Python Unicode database are rejected rather than silently misclassified.
+Implements single-message chat template with thinking disabled.
+Requires the supplied Qwen vocabulary, merge rules, and tokenizer configuration.
+
+https://huggingface.co/andreaskrein/qwen-3
 """
 import json
 import re
