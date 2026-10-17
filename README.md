@@ -11,8 +11,8 @@
 
 3. Download the image-to-image [model](https://huggingface.co/andreaskrein/flux-2-klein-4B_I2I_512px/resolve/main/flux-2-klein-4B_I2I_512px.cat) and the [text encoder](https://huggingface.co/andreaskrein/qwen-3/resolve/main/qwen-3.cat), and put them inside this folder as well
 
-5. In Nuke, update the Cattery
-![Cattery menu](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/Cattery.png)
+5. In Nuke, update the Cattery  
+   ![Cattery menu](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/Cattery.png)
 ***   
 ### Properties
 ![Properties](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/flux-2-klein-4B-for-Nuke.png)
