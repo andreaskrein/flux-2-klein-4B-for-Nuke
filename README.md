@@ -17,5 +17,5 @@
 ***   
 ### Properties
 ![Properties](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/flux-2-klein-4B-for-Nuke.png)
-Enter your prompt, and press the button to encode it.   
+Connect an image and a reference to the node. Enter your prompt, and press the button to encode it.   
 You can change the seed, but steps and guidance are hardcoded at `steps=4` and `cfg=1` with FLUX.
