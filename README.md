@@ -10,10 +10,11 @@
 
 2. Download the image-to-image [model](https://huggingface.co/andreaskrein/flux-2-klein-4B_I2I_512px/resolve/main/flux-2-klein-4B_I2I_512px.cat) and the [text encoder](https://huggingface.co/andreaskrein/qwen-3/resolve/main/qwen-3.cat), and put them inside this folder as well
 
-3. In Nuke, update the Cattery 
+3. In Nuke, update the Cattery
+   ![Cattery menu](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/Cattery.png)
    
 ### Properties
-
+![Properties](
 Enter your prompt and press the button to encode it.
 
 You can change the seed. Guidance and steps are hardcoded at `steps=4` and `cfg=1` with FLUX.
