@@ -4,7 +4,7 @@
 
 ![SandText](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/05b6e969ea30bd65c65d150e31f9a9b03077aeb9/assets/SandText.png)
 # FLUX.2[klein] 4B for Nuke
-Runs FLUX.2[klein]4B in an Inference node
+## Runs Flux 2 klein in an Inference node
 ### Installation
 1. Place the content of this repo into a folder in your local Cattery directory,   
    for example `~.nuke/Cattery/flux-2-klein-4B-for-Nuke`
