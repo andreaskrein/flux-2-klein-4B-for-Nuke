@@ -5,16 +5,17 @@
 ![SandText](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/05b6e969ea30bd65c65d150e31f9a9b03077aeb9/assets/SandText.png)
 # FLUX.2[klein] 4B for Nuke
 ### Installation
-1. Place the content of this repo into a folder in your local Cattery directory, for example  
-   `~.nuke/Cattery/flux-2-klein-4B-for-Nuke`
+1. Place the content of this repo into a folder in your local Cattery directory,   
+   for example `~.nuke/Cattery/flux-2-klein-4B-for-Nuke`
 
-2. Download the image-to-image [model](https://huggingface.co/andreaskrein/flux-2-klein-4B_I2I_512px/resolve/main/flux-2-klein-4B_I2I_512px.cat) and the [text encoder](https://huggingface.co/andreaskrein/qwen-3/resolve/main/qwen-3.cat), and put them inside this folder as well
+3. Download the image-to-image [model](https://huggingface.co/andreaskrein/flux-2-klein-4B_I2I_512px/resolve/main/flux-2-klein-4B_I2I_512px.cat) and the [text encoder](https://huggingface.co/andreaskrein/qwen-3/resolve/main/qwen-3.cat),   
+   and put them inside this folder as well
 
-3. In Nuke, update the Cattery
-   ![Cattery menu](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/Cattery.png)
-   
+5. In Nuke, update the Cattery
+
+![Cattery menu](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/Cattery.png)
+***   
 ### Properties
-![Properties](
-Enter your prompt and press the button to encode it.
-
-You can change the seed. Guidance and steps are hardcoded at `steps=4` and `cfg=1` with FLUX.
+![Properties](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/flux-2-klein-4B-for-Nuke.png)
+Enter your prompt and press the button to encode it.   
+You can change the seed, but Guidance and steps are hardcoded at `steps=4` and `cfg=1` with FLUX.
