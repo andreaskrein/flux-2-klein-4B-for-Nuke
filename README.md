@@ -17,5 +17,5 @@ Native, local, dependency-free.
    ![Cattery menu](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/Cattery.png)
 ***   
 ### Properties
-Connect an input and a reference image to the node. Enter your image editing prompt, and press the button to encode it. You can then change the seed. With FLUX, steps and guidance are hardcoded at `steps=4` and `cfg=1`.
+Connect an input and a reference image to the node. Enter your image editing prompt, and press the button to encode it. You can then change the seed. With FLUX 2, steps and guidance are hardcoded at `steps=4` and `cfg=1`.
 ![Properties](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/flux-2-klein-4B-for-Nuke.png)
