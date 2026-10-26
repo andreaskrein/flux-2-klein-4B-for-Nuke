@@ -32,7 +32,8 @@ set Naf56a300 [stack 0]
   number 1
  }
  Crop {
-  box {0 0 512 512}
+  box {0 0 1024 1024}
+  reformat true
   name Crop3
   xpos 492
   ypos -142
@@ -43,6 +44,7 @@ set Naf56a300 [stack 0]
   name Crop4
   xpos 492
   ypos -118
+  disable true
  }
  Switch {
   inputs 2
@@ -65,7 +67,8 @@ push $Naf56a300
   ypos -319
  }
  Crop {
-  box {0 0 512 512}
+  box {0 0 1024 1024}
+  reformat true
   name Crop1
   xpos 694
   ypos -252
@@ -76,6 +79,7 @@ push $Naf56a300
   name Crop2
   xpos 694
   ypos -228
+  disable true
  }
  Switch {
   inputs 2
