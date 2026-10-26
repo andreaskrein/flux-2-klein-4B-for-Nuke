@@ -12,7 +12,7 @@ Gizmo {
  seed 42
  addUserKnob {41 prompt l Prompt T Tokenizer.prompt}
  addUserKnob {41 encodePrompt l "Encode prompt" T Tokenizer.encodePrompt}
- addUserKnob {26 help l "?" -STARTLINE T "https://github.com/andreaskrein/flux-2-klein-4B-for-Nuke#readme"}
+ addUserKnob {26 help l "?" -STARTLINE T "https://github.com/andreaskrein/flux-2-klein-4B-for-Nuke#README.md"}
 }
  Constant {
   inputs 0
