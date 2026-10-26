@@ -178,7 +178,7 @@ add_layer {ref ref.red ref.green ref.blue}
  }
  Inference {
   useGPUIfAvailable {{parent.useGPU}}
-  modelFile "\[lsearch -inline \[plugins -all flux-2-klein-4B_I2I_1024px.cat] *.cat]"
+  modelFile "\[lsearch -inline \[plugins -all flux-2-klein-4B_I2I_512px.cat] *.cat]"
   serialiseKnob {seed:{parent.seed};}
   name Flux2Klein4B
   xpos 902
