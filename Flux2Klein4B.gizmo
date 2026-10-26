@@ -1,5 +1,5 @@
 #! /Applications/Nuke17.1v2/Nuke17.1v2.app/Contents/MacOS/libnuke-17.1.2.dylib -nx
-version 17.1 v2
+version 17.0 v1
 Gizmo {
  inputs 2
  addUserKnob {20 User l "Image Edit"}
