@@ -2,6 +2,7 @@
 version 17.0 v1
 Gizmo {
  inputs 2
+ addUserKnob {27 help l "?" -STARTLINE T "https://github.com/andreaskrein/flux-2-klein-4B-for-Nuke#README.md"}
  addUserKnob {20 User l "Image Edit"}
  addUserKnob {26 flux_2_klein_4b l "" t https://github.com/andreaskrein/flux-2-klein-4b-for-Nuke +STARTLINE T "<b>FLUX.2\[klein]</b>\n4B distilled"}
  addUserKnob {26 ""}
@@ -12,7 +13,6 @@ Gizmo {
  seed 42
  addUserKnob {41 prompt l Prompt T Tokenizer.prompt}
  addUserKnob {41 encodePrompt l "Encode prompt" T Tokenizer.encodePrompt}
- addUserKnob {26 help l "?" -STARTLINE T "https://github.com/andreaskrein/flux-2-klein-4B-for-Nuke#README.md"}
 }
  Constant {
   inputs 0
