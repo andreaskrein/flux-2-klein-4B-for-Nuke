@@ -8,7 +8,7 @@
 Native, local, dependency-free image editing at 1024x1024px.
 ### Installation
 1. Place the content of this repo into a folder in your local Cattery directory,   
-   for example `~/.nuke/Cattery/flux-2-klein-4B-for-Nuke`
+   for example `~/.nuke/Cattery/flux-2-klein-4B-for-Nuke-1024px`
 
 3. download the image-to-image [model](https://huggingface.co/andreaskrein/flux-2-klein-4B_I2I_1024px/resolve/main/flux-2-klein-4B_I2I_1024px.cat) and the [text encoder](https://huggingface.co/andreaskrein/qwen-3/resolve/main/qwen-3.cat), and put them inside this folder as well
 
