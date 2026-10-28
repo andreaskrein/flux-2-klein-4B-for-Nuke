@@ -90,6 +90,12 @@ push $Naf56a300
   xpos 792
   ypos -170
  }
+ Clamp {
+  channels rgb
+  name Clamp
+  xpos 792
+  ypos -187
+ }
  Group {
   inputs 0
   name Tokenizer
