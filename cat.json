@@ -5,8 +5,8 @@
     "description": "FLUX.2[klein] 4B - https://github.com/andreaskrein/flux-2-klein-4b-for-Nuke",
     "cats": [
         {
-            "filepath": "Flux2Klein4B.gizmo",
-            "name": "FLUX.2[klein] 4B",
+            "filepath": "Flux2Klein4B_512px.gizmo",
+            "name": "FLUX.2[klein] 4B 512px",
             "icon": "generative.png"
         }
     ]
