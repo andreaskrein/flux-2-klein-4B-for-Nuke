@@ -17,7 +17,7 @@ Native, local, dependency-free image editing at 1024x1024px.
    ![Cattery menu](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/Cattery.png)
 ***   
 ### Properties
-Connect an input and a reference image to the node. Enter your image editing prompt, and press the button to encode it. You can then change the seed. With FLUX 2, steps and guidance are hardcoded at `steps=4` and `cfg=1`.    
+Connect an input and a reference image to the node. Enter your image editing prompt, and press the button to encode it. Control the strength of the edit via the prompt. With distilled FLUX 2 Klein, steps and guidance are hardcoded at `steps=4` and `cfg=1`.    
 
 The text encoder Qwen 3 4B writes its output as pixel data into Nuke layers. When the node is copied, the encoded tokens may get lost. In this case, simply press the `Encode prompt` button again.
 ![Properties](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/flux-2-klein-4B-for-Nuke.png)
