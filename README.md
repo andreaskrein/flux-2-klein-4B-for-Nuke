@@ -17,7 +17,17 @@ Native, local, dependency-free image editing at 1024x1024px.
    ![Cattery menu](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/Cattery.png)
 ***   
 ### Properties
-Connect an input and a reference image to the node. Enter your image editing prompt, and press the button to encode it. You can then change the seed. With FLUX 2, steps and guidance are hardcoded at `steps=4` and `cfg=1`.
+Connect an input and a reference image to the node. Enter your image editing prompt, and press the button to encode it. You can then change the seed. With FLUX 2, steps and guidance are hardcoded at `steps=4` and `cfg=1`.    
+
+The text encoder Qwen 3 4B writes its output as pixel data into Nuke layers. When the node is copied, the encoded tokens may get lost. In this case, simply press the `Encode prompt` button again.
 ![Properties](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/flux-2-klein-4B-for-Nuke.png)
+### Example
+<img src="https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/teapot.jpeg" width="256"><img src="https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/radiolaria.jpeg" width="256">
+<img src="https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/properties.png" width="512">   
+<img src="https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/outputA.png" width="512">    
+
+
+> [!NOTE]
+> The minimum hardware requirements are 64GB RAM and 24GB VRAM on GPU setups, or 64GB unified RAM
 ### License
 flux-2-klein-4b_I2I_1024px.cat is an experimental implementation licensed under the Apache 2 License and is derived from **black-forest-labs/FLUX.2-klein-4B**. Although the Apache 2 License permits commercial use of the flux-2-klein-4b_I2I_1024px.cat code, the underlying pre-trained models, associated training data, and dependencies may be subject to separate — including non-commercial — licensing restrictions that are not covered by this license. Users should consult the original Flux 2 klein 4B repository for further information on applicable licensing terms and are solely responsible for ensuring that their intended use complies with all relevant restrictions. **No legal responsibility is assumed by the author for your use of results generated with this implementation.**
