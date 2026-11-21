@@ -19,7 +19,7 @@ Native, local, dependency-free image editing at 1024x1024px.
 ### Properties
 Connect an input and a reference image to the node. Enter your image editing prompt, and press the button to encode it. Control the strength of the edit via the prompt. With distilled FLUX 2 Klein, steps and guidance are hardcoded at `steps=4` and `cfg=1`.    
 
-The text encoder Qwen 3 4B writes its output as pixel data into Nuke layers. When the node is copied, the encoded tokens may get lost. In this case, simply press the `Encode prompt` button again.
+The text encoder Qwen 3 4B saves its output as animation curves and hands it to the image model as pixel data, via Nuke layers.
 ![Properties](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/flux-2-klein-4B-for-Nuke.png)
 ### Example
 <img src="https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/teapot.jpeg" width="256"><img src="https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/master/assets/radiolaria.jpeg" width="256">
