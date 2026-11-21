@@ -13,6 +13,9 @@ Gizmo {
  seed 42
  addUserKnob {41 prompt l Prompt T Tokenizer.prompt}
  addUserKnob {41 encodePrompt l "Encode prompt" T Tokenizer.encodePrompt}
+ addUserKnob {41 id_lut l "Token IDs" +INVISIBLE T Tokenizer.id_lut}
+ addUserKnob {41 mask_lut l "Attention mask" +INVISIBLE T Tokenizer.mask_lut}
+
 }
  Constant {
   inputs 0
