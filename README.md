@@ -6,7 +6,7 @@
 # FLUX.2[klein] 4B for Nuke
 ## Runs Flux 2 Klein 4B in an Inference node
 Native, local, dependency-free image editing at 1024x1024px.   
-Also vailable at [nukepedia.com/tools/gizmos/image/flux-2-klein-4b](https://www.nukepedia.com/tools/gizmos/image/flux-2-klein-4b/)
+Also available at [nukepedia.com/tools/gizmos/image/flux-2-klein-4b](https://www.nukepedia.com/tools/gizmos/image/flux-2-klein-4b/)
 ### Installation
 1. Place the content of this repo into a folder in your local Cattery directory,   
    for example `~/.nuke/Cattery/flux-2-klein-4B-for-Nuke`
