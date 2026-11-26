@@ -4,7 +4,7 @@
 
 ![SandText](https://raw.githubusercontent.com/andreaskrein/andreaskrein.github.io/05b6e969ea30bd65c65d150e31f9a9b03077aeb9/assets/SandText.png)
 # FLUX.2[klein] 4B for Nuke
-## Runs Flux 2 Klein 4B distilled in an Inference node
+## Runs _Flux 2 Klein 4B distilled_ in an Inference node
 Native, local, dependency-free image editing at 1024x1024px.   
 Also available at [nukepedia.com/tools/gizmos/image/flux-2-klein-4b](https://www.nukepedia.com/tools/gizmos/image/flux-2-klein-4b/)
 ### Installation
